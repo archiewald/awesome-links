@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index2.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodegit": "^0.27.0",
-    "rimraf": "^3.0.2",
+    "express": "^4.17.1",
     "rmrf": "^2.0.2"
   }
 }
