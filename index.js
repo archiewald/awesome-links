@@ -7,15 +7,22 @@ const rmrf = require("rmrf");
 async function main(stuff) {
   await rmrf("./temp");
   console.log("Cloning repo to temp folder");
-  await exec(
-    `git clone "https://${process.env.GIT_USERNAME}:${process.env.GIT_PASSWORD}@github.com/archiewald/archiewald.github.io" "./temp"`
-  );
-  await exec('git config user.email "awesome-links@example.com"', {
-    cwd: "./temp",
-  });
-  await exec('git config user.name "Awesome Links"', {
-    cwd: "./temp",
-  });
+
+  if (process.env.HEROKU === "true") {
+    await exec(
+      `git clone "https://${process.env.GIT_USERNAME}:${process.env.GIT_PASSWORD}@github.com/archiewald/archiewald.github.io" "./temp"`
+    );
+    await exec('git config --global user.email "awesome-links@example.com"', {
+      cwd: "./temp",
+    });
+    await exec('git config --global user.name "Awesome Links"', {
+      cwd: "./temp",
+    });
+  } else {
+    await exec(
+      `git clone "https://github.com/archiewald/archiewald.github.io" "./temp"`
+    );
+  }
 
   console.log("Reading awesome links file");
   const content = await fs.readFile("./temp/awesome-links.md", "utf8");
