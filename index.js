@@ -8,8 +8,14 @@ async function main(stuff) {
   await rmrf("./temp");
   console.log("Cloning repo to temp folder");
   await exec(
-    'git clone "https://github.com/archiewald/archiewald.github.io" "./temp"'
+    `git clone "https://${process.env.GIT_USERNAME}:${process.env.GIT_PASSWORD}@github.com/archiewald/archiewald.github.io" "./temp"`
   );
+  await exec('git config user.email "awesome-links@example.com"', {
+    cwd: "./temp",
+  });
+  await exec('git config user.name "Awesome Links"', {
+    cwd: "./temp",
+  });
 
   console.log("Reading awesome links file");
   const content = await fs.readFile("./temp/awesome-links.md", "utf8");
@@ -35,9 +41,9 @@ const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
 
-app.post("/", (req, res) => {
+app.post("/", async (req, res) => {
   console.log(req.body);
-  main(JSON.stringify(req.body));
+  await main(JSON.stringify(req.body));
   res.send(req.body);
 });
 
