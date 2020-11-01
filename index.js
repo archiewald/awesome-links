@@ -52,6 +52,12 @@ app.use(cors());
 app.use(express.json());
 
 app.post("/", async (req, res) => {
+  console.log({
+    secretEnv: process.env.SECRET,
+    bookmarks: req.body.bookmarks,
+    secret: req.body.secret,
+  });
+
   if (req.body.secret !== process.env.SECRET) {
     return res.sendStatus(401);
   }
