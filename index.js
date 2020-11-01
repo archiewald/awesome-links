@@ -3,6 +3,7 @@ const exec = util.promisify(require("child_process").exec);
 const express = require("express");
 const fs = require("fs").promises;
 const rmrf = require("rmrf");
+const { createUpdatedPage } = require("./createAwesomePage");
 
 async function main(stuff) {
   await rmrf("./temp");
@@ -28,8 +29,8 @@ async function main(stuff) {
   const content = await fs.readFile("./temp/awesome-links.md", "utf8");
 
   console.log("Updating awesome links file");
-  const newContent = content + `\nUpdate: ${Date.now().toString()}`;
-  fs.writeFile("./temp/awesome-links.md", newContent);
+  const newContent = createUpdatedPage(content);
+  await fs.writeFile("./temp/awesome-links.md", newContent);
 
   console.log("Commiting and pushing 🚀");
   await exec("git add ./awesome-links.md", {
@@ -49,9 +50,11 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 app.post("/", async (req, res) => {
-  console.log(req.body);
-  await main(JSON.stringify(req.body));
-  res.send(req.body);
+  if (req.body.secret !== process.env.SECRET) {
+    res.sendStatus(401);
+  }
+  await main(req.body.bookmarks);
+  res.sendStatus(200);
 });
 
 app.listen(PORT, () => {

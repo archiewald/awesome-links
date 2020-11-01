@@ -1,0 +1,770 @@
+[
+  {
+    "title": "backend",
+    "children": [
+      { "title": "Home | Arkency Blog", "url": "https://blog.arkency.com/" },
+      {
+        "title": "RSpec - you should avoid let and before blocks to use natural flow",
+        "url": "http://pdabrowski.com/blog/rspec-avoid-let-and-before-block"
+      },
+      {
+        "title": "Quickstart: Compose and Rails | Docker Documentation",
+        "url": "https://docs.docker.com/compose/rails/"
+      },
+      {
+        "title": "Introduction - Ruby Reference",
+        "url": "https://rubyreferences.github.io/rubyref/"
+      },
+      {
+        "title": "Modules | Ruby for Beginners",
+        "url": "http://ruby-for-beginners.rubymonstas.org/advanced/modules.html"
+      },
+      {
+        "title": "Examples of pointless types of RSpec tests - Code with Jason",
+        "url": "https://www.codewithjason.com/examples-pointless-rspec-tests/"
+      },
+      {
+        "title": "All Rails db Rake Tasks and What They Do",
+        "url": "https://jacopretorius.net/2014/02/all-rails-db-rake-tasks-and-what-they-do.html"
+      },
+      {
+        "title": "How To Safely Store A Password | codahale.com",
+        "url": "https://codahale.com/how-to-safely-store-a-password/"
+      },
+      {
+        "title": "As Europe Locks Down, Sweden Takes A Liberal Approach To Coronavirus",
+        "url": "https://www.forbes.com/sites/carlieporterfield/2020/04/03/as-europe-locks-down-sweden-takes-a-liberal-approach-to-coronavirus/#74d687011714"
+      },
+      {
+        "title": "inPZU.pl – Fundusze inwestycyjne TFI PZU SA",
+        "url": "https://inpzu.pl/tfi/moje-produkty/inwestycje"
+      },
+      {
+        "title": "goldbergyoni/nodebestpractices: The Node.js best practices list (May 2020)",
+        "url": "https://github.com/goldbergyoni/nodebestpractices"
+      },
+      {
+        "title": "Wojciech Przechodzeń — Jak skutecznie testować aplikacje backendowe w Node.js [PL] — WarsawJS Meetup - YouTube",
+        "url": "https://www.youtube.com/watch?v=_lq0ddzy94Y"
+      },
+      {
+        "title": "REST API: Sorting, Filtering, and Pagination | Tania Rascia",
+        "url": "https://www.taniarascia.com/rest-api-sorting-filtering-pagination/"
+      },
+      {
+        "title": "SQLBolt - Learn SQL - Introduction to SQL",
+        "url": "https://sqlbolt.com/"
+      }
+    ]
+  },
+  {
+    "title": "frontend",
+    "children": [
+      {
+        "title": "Why is modern web development so complicated? A long yet hasty explanation: Part 1! - vrk.dev",
+        "url": "https://www.vrk.dev/2019/07/11/why-is-modern-web-development-so-complicated-a-long-yet-hasty-explanation-part-1/"
+      },
+      {
+        "title": "Learn Web Dev Tools · Front-End Developer Handbook 2018",
+        "url": "https://frontendmasters.com/books/front-end-handbook/2018/learning/browser-dev-tools.html"
+      },
+      {
+        "title": "DirtyMarkup Formatter - HTML, CSS, & JavaScript Beautifier",
+        "url": "https://www.10bestdesign.com/dirtymarkup/"
+      },
+      {
+        "title": "gothinkster/realworld: \"The mother of all demo apps\" — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅",
+        "url": "https://github.com/gothinkster/realworld"
+      },
+      {
+        "title": "tastejs/todomvc: Helping you select an MV* framework - Todo apps for React.js, Ember.js, Angular, and many more",
+        "url": "https://github.com/tastejs/todomvc"
+      },
+      {
+        "title": "What Web Can Do Today",
+        "url": "https://whatwebcando.today/"
+      },
+      {
+        "title": "Przykładowy raport z rzeczywistego testu penetracyjnego - Moje miejsce w sieci",
+        "url": "https://www.my127001.pl/przykladowy-raport-z-rzeczywistego-testu-penetracyjnego/"
+      },
+      {
+        "title": "Markdown Tutorial",
+        "url": "https://www.markdowntutorial.com/"
+      },
+      {
+        "title": "What Is JavaScript Made Of? — Overreacted",
+        "url": "https://overreacted.io/what-is-javascript-made-of/"
+      },
+      {
+        "title": "chrome.bookmarks - Google Chrome",
+        "url": "https://developers.chrome.com/extensions/bookmarks#event-onCreated"
+      }
+    ]
+  },
+  {
+    "title": "js",
+    "children": [
+      {
+        "title": "The State of JavaScript 2018",
+        "url": "https://2018.stateofjs.com/"
+      },
+      {
+        "title": "ryanmcdermott/clean-code-javascript: Clean Code concepts adapted for JavaScript",
+        "url": "https://github.com/ryanmcdermott/clean-code-javascript"
+      },
+      {
+        "title": "Arrayzing - The JavaScript array cheatsheet",
+        "url": "https://gist.github.com/ourmaninamsterdam/1be9a5590c9cf4a0ab42"
+      },
+      {
+        "title": "latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoK",
+        "url": "http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D"
+      },
+      {
+        "title": "10 Interview Questions Every JavaScript Developer Should Know",
+        "url": "https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95"
+      },
+      {
+        "title": "Top JavaScript Libraries & Tech to Learn in 2018 – JavaScript Scene – Medium",
+        "url": "https://medium.com/javascript-scene/top-javascript-libraries-tech-to-learn-in-2018-c38028e028e6"
+      },
+      {
+        "title": "Learn Functional Programming in JavaScript (v2) with Kyle Simpson",
+        "url": "https://frontendmasters.com/courses/functional-javascript-v2/"
+      },
+      {
+        "title": "Learn JavaScript: – JavaScript Scene – Medium",
+        "url": "https://medium.com/javascript-scene/learn-javascript-b631a4af11f2"
+      },
+      {
+        "title": "Looking for good tutorial on async/await programming - javascript",
+        "url": "https://www.reddit.com/r/javascript/comments/9yl2x9/looking_for_good_tutorial_on_asyncawait/ea26f1p/"
+      },
+      {
+        "title": "Why React Hooks, and how did we even get here? – freeCodeCamp.org",
+        "url": "https://medium.freecodecamp.org/why-react-hooks-and-how-did-we-even-get-here-aa5ed5dc96af"
+      },
+      {
+        "title": "A Simple Guide to ES6 Iterators in JavaScript with Examples",
+        "url": "https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e"
+      },
+      {
+        "title": "Understanding Generators in ES6 JavaScript with Examples",
+        "url": "https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5"
+      },
+      {
+        "title": "(248) What the heck is the event loop anyway? | Philip Roberts | JSConf EU - YouTube",
+        "url": "https://www.youtube.com/watch?v=8aGhZQkoFbQ"
+      },
+      {
+        "title": "Documentation | NestJS - A progressive Node.js web framework",
+        "url": "https://docs.nestjs.com/"
+      },
+      {
+        "title": "Object Playground: The Definitive Guide to Object-Oriented JavaScript",
+        "url": "http://www.objectplayground.com/"
+      },
+      {
+        "title": "mrdavidlaing/javascript-koans: Koans to learn Javascript",
+        "url": "https://github.com/mrdavidlaing/javascript-koans"
+      },
+      {
+        "title": "JavaScript Promises: An introduction",
+        "url": "https://web.dev/promises/"
+      },
+      {
+        "title": "Service Worker Sample: Custom Offline Page Sample",
+        "url": "https://googlechrome.github.io/samples/service-worker/custom-offline-page/"
+      },
+      {
+        "title": "Get Started with Debugging JavaScript in Chrome DevTools",
+        "url": "https://developers.google.com/web/tools/chrome-devtools/javascript"
+      },
+      {
+        "title": "🎉32 Code Tutorials for Visual Learners 🖼 - DEV Community 👩‍💻👨‍💻",
+        "url": "https://dev.to/ender_minyard/28-code-tutorials-for-visual-learners-19pl?fbclid=IwAR0IBInwDoJuMR-qIGPLv6a0yDp3Z8VMnEKYX7nv2zCAHTNKvj44ZHt7wfo"
+      },
+      {
+        "title": "Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript | Tania Rascia",
+        "url": "https://www.taniarascia.com/asynchronous-javascript-event-loop-callbacks-promises-async-await/"
+      },
+      {
+        "title": "Asynchronous JavaScript - Learn web development | MDN",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous"
+      },
+      { "title": "Extensions", "url": "chrome://extensions/" }
+    ]
+  },
+  {
+    "title": "react",
+    "children": [
+      {
+        "title": "On Forms in React - Gosha Arinich",
+        "url": "https://goshakkk.name/on-forms-react/"
+      },
+      {
+        "title": "Stanko/react-animate-height: Lightweight React component for animating height using CSS transitions. Slide up/down the element, and animate it to any specific height.",
+        "url": "https://github.com/Stanko/react-animate-height"
+      },
+      {
+        "title": "(158) The introduction to React you've been missing - YouTube",
+        "url": "https://www.youtube.com/watch?v=pugPxYH96TU"
+      },
+      {
+        "title": "React Native at Airbnb – Airbnb Engineering & Data Science – Medium",
+        "url": "https://medium.com/airbnb-engineering/react-native-at-airbnb-f95aa460be1c"
+      },
+      {
+        "title": "JavaScript code cleanup: how you can refactor to use Classes",
+        "url": "https://medium.freecodecamp.org/javascript-code-cleanup-how-you-can-refactor-to-use-classes-3948118e4468"
+      },
+      {
+        "title": "enaqx/awesome-react: A collection of awesome things regarding React ecosystem.",
+        "url": "https://github.com/enaqx/awesome-react"
+      },
+      {
+        "title": "Making Axios play nicely with a Rails API – Mike Parton – Medium",
+        "url": "https://medium.com/@mikerelated/making-axios-play-nicely-with-a-rails-api-949782fccd2e"
+      },
+      {
+        "title": "Becoming fully reactive: an in-depth explanation of MobX",
+        "url": "https://hackernoon.com/becoming-fully-reactive-an-in-depth-explanation-of-mobservable-55995262a254"
+      },
+      {
+        "title": "(240) Hacker Way: Rethinking Web App Development at Facebook - YouTube",
+        "url": "https://www.youtube.com/watch?v=nYkdrAPrdcw"
+      },
+      {
+        "title": "Organizing State · Redux",
+        "url": "https://redux.js.org/faq/organizing-state#do-i-have-to-put-all-my-state-into-redux-should-i-ever-use-reacts-setstate"
+      },
+      {
+        "title": "mobxjs/awesome-mobx: A collection of awesome things regarding MobX.",
+        "url": "https://github.com/mobxjs/awesome-mobx"
+      },
+      {
+        "title": "How to fetch data with React Hooks? - RWieruch",
+        "url": "https://www.robinwieruch.de/react-hooks-fetch-data"
+      },
+      {
+        "title": "Myths about useEffect | Epic React by Kent C. Dodds",
+        "url": "https://epicreact.dev/myths-about-useeffect/"
+      },
+      {
+        "title": "15 React Interview Questions with Solutions - SitePoint",
+        "url": "https://www.sitepoint.com/react-interview-questions-solutions/"
+      }
+    ]
+  },
+  {
+    "title": "tools",
+    "children": [
+      {
+        "title": "Lorem Ipsum – Generator, Origins and Meaning",
+        "url": "https://loremipsum.io/"
+      },
+      {
+        "title": "gitignore.io - Create Useful .gitignore Files For Your Project",
+        "url": "https://www.gitignore.io/"
+      },
+      {
+        "title": "keyboard-shortcuts-macos.pdf",
+        "url": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+      },
+      {
+        "title": "Markdown Style Guide",
+        "url": "http://www.cirosantilli.com/markdown-style-guide/#dollar-signs-in-shell-code"
+      },
+      {
+        "title": "google/guetzli: Perceptual JPEG encoder",
+        "url": "https://github.com/google/guetzli"
+      }
+    ]
+  },
+  {
+    "title": "ts",
+    "children": [
+      {
+        "title": "Introduction · TypeScript Deep Dive",
+        "url": "https://basarat.gitbooks.io/typescript/"
+      },
+      {
+        "title": "labs42io/clean-code-typescript: Clean Code concepts adapted for TypeScript",
+        "url": "https://github.com/labs42io/clean-code-typescript"
+      },
+      {
+        "title": "How TypeScript works",
+        "url": "https://users.soe.ucsc.edu/~abadi/Papers/FTS-submitted.pdf?fbclid=IwAR2arPCmPq1vRWJML9bd4LPNhQnkuRyJInfR02DC7ZUkQL1gX_8AFND4l9s"
+      },
+      {
+        "title": "TypeScripts Type System is Turing Complete · Issue #14833 · microsoft/TypeScript · GitHub",
+        "url": "https://github.com/Microsoft/TypeScript/issues/14833"
+      },
+      {
+        "title": "GitHub - kgtkr/typepark",
+        "url": "https://github.com/kgtkr/typepark"
+      },
+      {
+        "title": "Math with Number Literal Type · Issue #26382 · microsoft/TypeScript · GitHub",
+        "url": "https://github.com/microsoft/TypeScript/issues/26382"
+      },
+      {
+        "title": "A SQL database implemented purely in TypeScript type annotations. - typescript",
+        "url": "https://www.reddit.com/r/typescript/comments/iww4hs/a_sql_database_implemented_purely_in_typescript/"
+      },
+      {
+        "title": "TypeScript: Playground - An online editor for exploring TypeScript and JavaScript",
+        "url": "https://www.typescriptlang.org/play?ts=4.1.0-dev.20200920#code/C4TwDgpgBAymA2BLYAeGUIA9gQHYBMBnKQ4AJ0VwHMAaKAEQ2zyJPMqoD4oBeWJnAWIADACQBvSgDMIZKABUAvhPrLJuGXICqi4VAD8UANry6AOgtwkqLXXqcAulABcxmA4DcAKFCQFAQwBrCAAZf1IUADVuPkiBFmIjJ0NcCAA3WRcoOKxBViNSCmpk7KMABidXHOYhY0KOcwtpTIAlEvkg0PDUFu5XVIyyb19oeQoAWxCIKVRqvOJ66hjs+Nq9CWa5Ft0DBQmpmZRerMjh8FGJlsQqAAtZ1dZFrl4V3ISoMXVNKG2P3bHEOMrrcen1smc-ADxlEHgt2EsXlCDqgocC7lFOJwIdAYOwwABZAD2+EQUkQshhb1qTzo+NhbCKz1i9M+mygITU+LUbIAgjtDCETtjYHiiSSybJCJSao94UyRRQCcTSeSyGhRcqJWrcYqxSqKTrEErxaqonQAORmc2cC0AYmtFqMDqg5uc1uFHWCYVIPJmsnkhOCuGl8wZDQU9Key0Nxv1ZClnq6ESsyBQUIxdHkmKxPnOUAA4hBgN7gABReAQcZ4YAAOX8VZD7yjiM6Jd9ODIAaDadb3Xb-sDeDNLpdNtH7tzfkLZf8AGMbuXK9W6w3InRBVTZYyki8kssvFBD68ZYknAejxeBVBzxfD1V6QU5Wfb0fDEYLGYQnRpyXF1XcLW9YQFE5QOI414vnex6ho+jKNGYbJtBBkGGNOpZzguFb-oBDYtHQ74WF+BZFr+WHLkBIEVI43A3rerhJMKaFkQBK4QFKcxNnKyxoRhf7kQ2KazBaNDWjmIxQHxAEAEIgKxjbUlxLy0RxtTBCAhJSFAAAS8j4iEknAB0VCsfi-hgMhL6GDpekGUZJlmUYkTPpB96bsQakabAkT5rZ-jGUBpnmbRl5eT5zGGX59lgI5zkvq4BnCqZwDzuhKXhcOG4nhJ4VQAAPlAuAAK7wPALxFSV+4Xip+SxbeV7BUerlZbBHC1SFgr5QZMlyZEoE0ZBJwPjSUAfohbWvlASUpbx6V4eyeXZUu0myRRvVUf1Lnst4k7QAAioVsggC0bHFSikaKXwU0LjNS2oExt2sQmmLbQA9AAVG9B5vRJmD1ggEBfS9Xj4BAs7wP4ZDQFIhW4LOwCIISuBQAAjgdZAgDAEAVnDhJqvI52MpwAAUqOHa48gAJSuPth3HYQp1pjmXizojpBQP4Lyk+jmPY8AuNE+aJJpGYABG-i4KkcjcP4Zizv4JUALR8wrc7w4j5oU1AL0vQr3DWSEPKwzcuMGczrPAFAIuc2jGNY6DfNkALlBgIVwB0ELGtazreu6SEACSuAu2WOX5fr9CIGkpss7gbOztbh08-b-PmrOiBkGDEBGLOmA8AARAAjAArGUucOJ72u66FADCacZ1H5tQPg8fc3bOOO+aIuu3zuC2p3IAK7ghIAO7l972m+1JXeI-XMcW9AfBc7bvPJ4Q9sI0jYDOGS8bAArGlK+cGseF7lf6wAChDflkGZmG3V4QA"
+      },
+      {
+        "title": "GitHub - codemix/ts-sql: A SQL database implemented purely in TypeScript type annotations.",
+        "url": "https://github.com/codemix/ts-sql"
+      }
+    ]
+  },
+  {
+    "title": "css/design",
+    "children": [
+      {
+        "title": "page-transitions-travelapp",
+        "url": "https://page-transitions.com/"
+      },
+      {
+        "title": "Native-Like Animations for Page Transitions on the Web | CSS-Tricks",
+        "url": "https://css-tricks.com/native-like-animations-for-page-transitions-on-the-web/"
+      },
+      {
+        "title": "A Complete Guide to Flexbox | CSS-Tricks",
+        "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+      },
+      {
+        "title": "A Complete Guide to Grid | CSS-Tricks",
+        "url": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+      },
+      {
+        "title": "Glen Maddern: Internet Pro",
+        "url": "https://glenmaddern.com/articles/css-modules"
+      },
+      {
+        "title": "The Shapes of CSS | CSS-Tricks",
+        "url": "https://css-tricks.com/the-shapes-of-css/"
+      },
+      {
+        "title": "Aspect Ratio Boxes | CSS-Tricks",
+        "url": "https://css-tricks.com/aspect-ratio-boxes/"
+      },
+      { "title": "Almost Over", "url": "https://almostover.ru/" },
+      {
+        "title": "Animations in iOS: 30 beautiful examples – Flawless App Stories – Medium",
+        "url": "https://medium.com/flawless-app-stories/animations-in-ios-30-beautiful-examples-80cb2663c559"
+      },
+      {
+        "title": "Welcome - Microsoft Style Guide | Microsoft Docs",
+        "url": "https://docs.microsoft.com/en-us/style-guide/welcome/"
+      },
+      {
+        "title": "Stacking without the z-index property - CSS: Cascading Style Sheets | MDN",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Stacking_without_z-index"
+      },
+      {
+        "title": "nystudio107 | The CSS background-image property as an anti-pattern",
+        "url": "https://nystudio107.com/blog/the-css-background-image-property-as-an-anti-pattern"
+      },
+      {
+        "title": "Grid for layout, Flexbox for components",
+        "url": "https://ishadeed.com/article/grid-layout-flexbox-components/"
+      },
+      {
+        "title": "Web Design in 4 minutes",
+        "url": "https://jgthms.com/web-design-in-4-minutes/"
+      },
+      {
+        "title": "Ask HN: Where can I find high-end stock images for a website? | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=15602538"
+      },
+      {
+        "title": "83 Beautiful CSS box-shadow examples - CSS Scan",
+        "url": "https://getcssscan.com/css-box-shadow-examples"
+      },
+      { "title": "Grumpy Website", "url": "https://grumpy.website/" }
+    ]
+  },
+  {
+    "title": "git",
+    "children": [
+      {
+        "title": "Learn Git Branching",
+        "url": "https://learngitbranching.js.org/"
+      },
+      {
+        "title": "A successful Git branching model » nvie.com",
+        "url": "https://nvie.com/posts/a-successful-git-branching-model/"
+      },
+      {
+        "title": "Oh Shit, Git!?!",
+        "url": "https://ohshitgit.com/?fbclid=IwAR1LmvdPffNeP4KflzjFvOAGDWpNNBxXEJMoQJmWcVSz8IYgNcgWEnNHANM"
+      },
+      {
+        "title": "localhost:8002/coach/create-profile/form",
+        "url": "http://localhost:8002/coach/create-profile/form"
+      }
+    ]
+  },
+  {
+    "title": "programming general",
+    "children": [
+      {
+        "title": "free-programming-books/free-programming-books.md at master · EbookFoundation/free-programming-books",
+        "url": "https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#javascript"
+      },
+      {
+        "title": "Goodbye, Object Oriented Programming – Charles Scalfani – Medium",
+        "url": "https://medium.com/@cscalfani/goodbye-object-oriented-programming-a59cda4c0e53"
+      },
+      {
+        "title": "Clean Coder Blog",
+        "url": "https://blog.cleancoder.com/uncle-bob/2015/08/06/LetTheMagicDie.html"
+      },
+      {
+        "title": "The 25 most recommended programming books of all-time. - DEV Community 👩‍💻👨‍💻",
+        "url": "https://dev.to/daolf/the-25-most-recommended-programming-books-of-all-time-5fel"
+      },
+      {
+        "title": "The S.O.L.I.D Principles in Pictures - Backticks & Tildes - Medium",
+        "url": "https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898"
+      },
+      {
+        "title": "(A few) Ops Lessons We All Learn The Hard Way",
+        "url": "https://www.netmeister.org/blog/ops-lessons.html"
+      },
+      {
+        "title": "Podstawy pracy w terminalu w systemie Linux - YouTube",
+        "url": "https://m.youtube.com/watch?v=hTNEVYcG1kc"
+      },
+      {
+        "title": "The 100x Engineer – Zef’s Musings 🤔",
+        "url": "https://zef.me/2017/12/28/the-100x-engineer/"
+      },
+      {
+        "title": "The Floating-Point Guide - What Every Programmer Should Know About Floating-Point Arithmetic",
+        "url": "https://floating-point-gui.de/"
+      }
+    ]
+  },
+  {
+    "title": "blockchain",
+    "children": [
+      {
+        "title": "Blockchain Technology Overview | NIST",
+        "url": "https://www.nist.gov/publications/blockchain-technology-overview"
+      },
+      {
+        "title": "In the Crypto Ecosystem, It’s Still 1968 — But We’re Moving Fast",
+        "url": "https://blog.po.et/in-the-crypto-ecosystem-its-still-1968-but-we-re-moving-fast-8995770a2863"
+      },
+      {
+        "title": "Crypto Tokens: A Breakthrough in Open Network Design",
+        "url": "https://medium.com/@cdixon/crypto-tokens-a-breakthrough-in-open-network-design-e600975be2ef"
+      }
+    ]
+  },
+  {
+    "title": "computer science",
+    "children": [
+      {
+        "title": "alex/what-happens-when: An attempt to answer the age old interview question \"What happens when you type google.com into your browser and press enter?\"",
+        "url": "https://github.com/alex/what-happens-when"
+      },
+      {
+        "title": "GraphQL vs. REST - Apollo GraphQL",
+        "url": "https://blog.apollographql.com/graphql-vs-rest-5d425123e34b"
+      },
+      {
+        "title": "The Illustrated TLS Connection: Every Byte Explained",
+        "url": "https://tls.ulfheim.net/"
+      },
+      {
+        "title": "kdeldycke/awesome-falsehood: Curated list of falsehoods programmers believe in.",
+        "url": "https://github.com/kdeldycke/awesome-falsehood"
+      },
+      {
+        "title": "Microservices Are Something You Grow Into, Not Begin With — Nick Janetakis",
+        "url": "https://nickjanetakis.com/blog/microservices-are-something-you-grow-into-not-begin-with"
+      },
+      {
+        "title": "danistefanovic/build-your-own-x: 🤓 Build your own (insert technology here)",
+        "url": "https://github.com/danistefanovic/build-your-own-x"
+      },
+      {
+        "title": "mtdvio/every-programmer-should-know: A collection of (mostly) technical things every software developer should know",
+        "url": "https://github.com/mtdvio/every-programmer-should-know"
+      },
+      {
+        "title": "Memorize Commands",
+        "url": "https://www.memorize-terminal-commands.com/training"
+      },
+      {
+        "title": "Learning Machine Learning  |  Cloud AI  |  Google Cloud",
+        "url": "https://cloud.google.com/products/ai/ml-comic-1/?fbclid=IwAR1a0rCqC5A7sd1_XIRHofOkpQdUfS47Msxh29W62_gZM8Qgaq9lDMmd20Q"
+      },
+      {
+        "title": "Котеджі Буковеля - зняти будиночок в Карпатах, онлайн бронювання",
+        "url": "http://www.hotelsbukovel.com.ua/ua/hotels-catalog/kottedzhi"
+      },
+      { "title": "Time", "url": "https://unix4lyfe.org/time/" },
+      {
+        "title": "Teach Yourself Computer Science",
+        "url": "https://teachyourselfcs.com/"
+      },
+      {
+        "title": "SICP lectures notes",
+        "url": "http://www-inst.eecs.berkeley.edu/~cs61a/reader/notes.pdf"
+      },
+      {
+        "title": "Edytuj treningi / ArdentCoach",
+        "url": "http://0.0.0.0:8002/coach/dashboard/add-training?runnerId=5e1f0aac887322370edd3b85"
+      },
+      {
+        "title": "GitHub - snori74/linuxupskillchallenge: Learn the skills required to sysadmin a remote Linux server from the commandline.",
+        "url": "https://github.com/snori74/linuxupskillchallenge"
+      },
+      {
+        "title": "https://words-counter.stackblitz.io",
+        "url": "https://words-counter.stackblitz.io/"
+      },
+      {
+        "title": "kdeldycke/awesome-falsehood: 😱 Falsehoods Programmers Believe in",
+        "url": "https://github.com/kdeldycke/awesome-falsehood#software-engineering"
+      },
+      {
+        "title": "nurkiewicz/polski-w-it: Słowniczek angielsko-polski w IT",
+        "url": "https://github.com/nurkiewicz/polski-w-it"
+      }
+    ]
+  },
+  {
+    "title": "html",
+    "children": [
+      {
+        "title": "About rel=noopener",
+        "url": "https://mathiasbynens.github.io/rel-noopener/#hax"
+      }
+    ]
+  },
+  {
+    "title": "Blogging",
+    "children": [
+      {
+        "title": "How to Write and Promote a Programming Blog Post [Screencast]",
+        "url": "https://pawelurbanek.com/promote-programming-blogpost"
+      }
+    ]
+  },
+  {
+    "title": "web",
+    "children": [
+      {
+        "title": "How to build a SaaS with $0 – Hacker Noon",
+        "url": "https://hackernoon.com/how-to-build-a-saas-with-0-fed2341078c8?fbclid=IwAR2XEvkuL-35agvKFVkEuS7K6GKJn1VIrpDICdmjugsHDoYoB3HajiEZamE"
+      },
+      {
+        "title": "The Zero-Dollar Infrastructure Stack - Better Programming - Medium",
+        "url": "https://medium.com/better-programming/the-zero-dollar-infrastructure-stack-7c840a8b555b"
+      },
+      {
+        "title": "Aktywne Strony TOR Kwiecień 2020 Aktualizacja 07.04.2020",
+        "url": "http://itcontent.eu/aktywne-strony-tor/"
+      },
+      {
+        "title": "Web Skills",
+        "url": "https://andreasbm.github.io/web-skills/?compact"
+      },
+      {
+        "title": "Amazon Web Services",
+        "url": "https://adayinthelifeof.nl/2020/05/20/aws.html"
+      },
+      {
+        "title": "GitHub - kamranahmedse/developer-roadmap: Roadmap to becoming a web developer in 2020",
+        "url": "https://github.com/kamranahmedse/developer-roadmap"
+      },
+      {
+        "title": "5 most annoying website features I face as a blind person every single day | The Big Hack",
+        "url": "https://bighack.org/5-most-annoying-website-features-i-face-as-a-blind-screen-reader-user-accessibility/"
+      },
+      {
+        "title": "Stop using JWT for sessions - joepie91's Ramblings",
+        "url": "http://cryto.net/~joepie91/blog/2016/06/13/stop-using-jwt-for-sessions/?fbclid=IwAR3-0LTZFALGZTHUNyWu9NNd7naz77_5Grb2buxDZ5S-ymifKF7LfPjTvns"
+      }
+    ]
+  },
+  {
+    "title": "startup",
+    "children": [
+      {
+        "title": "Startup idea checklist | defmacro",
+        "url": "https://www.defmacro.org/2019/03/26/startup-checklist.html"
+      },
+      {
+        "title": "LisaDziuba/Marketing-for-Engineers: A curated collection of marketing articles & tools to grow your product.",
+        "url": "https://github.com/LisaDziuba/Marketing-for-Engineers"
+      },
+      {
+        "title": "YC Startup Library",
+        "url": "https://www.ycombinator.com/library"
+      },
+      {
+        "title": "My startup validation process – Neil Cocker",
+        "url": "https://neilcocker.com/2020/08/22/my-startup-validation-process/"
+      },
+      {
+        "title": "Persisting as a solo founder",
+        "url": "https://vishnu.tech/posts/persistence/"
+      },
+      {
+        "title": "Ask HN: Successful one-person online businesses? | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=21332072"
+      },
+      {
+        "title": "Stop Asking Me to “Sign Up” | Greg Kogan",
+        "url": "https://www.gkogan.co/blog/stop-asking-me-to-sign-up/"
+      },
+      {
+        "title": "Ask HN: How to learn sales? | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=24601579"
+      },
+      { "title": "Early Work", "url": "http://paulgraham.com/early.html" },
+      { "title": "add", "url": "https://www.nodegit.org/api/" }
+    ]
+  },
+  {
+    "title": "career",
+    "children": [
+      {
+        "title": "Pytania, które programista powinien zadać potencjalnemu pracodawcy. Jak się nie wpakować w beznadziejny kod? - Pomoc w angielskim",
+        "url": "https://pomocwangielskim.pl/pytania-ktore-programista-powinien-zadac-potencjalnemu-pracodawcy?fbclid=IwAR0fEBRBNTrnWlpj24msV8e_-nuAPppXIgh6qXTix1WQQ5lcv4kHegqpxvc"
+      },
+      {
+        "title": "How I got a € 90k+ job (TC) in Germany as a self-taught web developer with 1.5 years of experience.",
+        "url": "https://medium.com/@angadsingh_40633/how-i-got-a-90k-job-tc-as-a-self-taught-web-developer-with-1-5-years-of-experience-in-germany-465d5281f7fa"
+      },
+      {
+        "title": "viraptor/reverse-interview: Questions to ask the company during your interview",
+        "url": "https://github.com/viraptor/reverse-interview"
+      },
+      {
+        "title": "Every productivity thought I've ever had, as concisely as possible - Alexey Guzey",
+        "url": "https://guzey.com/productivity/"
+      },
+      {
+        "title": "The Pragmatic Engineer’s Developer Culture Test",
+        "url": "https://blog.pragmaticengineer.com/the-developer-culture-test/"
+      },
+      {
+        "title": "https://zalberico.com/essay/2020/04/19/how-to-become-a-hacker.html",
+        "url": "https://zalberico.com/essay/2020/04/19/how-to-become-a-hacker.html"
+      },
+      {
+        "title": "2017 - Wojciech Seliga - Plantacje programistów - kolonializm XXI wieku - YouTube",
+        "url": "https://www.youtube.com/watch?v=dyGaJ82o41k&feature=youtu.be&fbclid=IwAR1chd51LBIZzVGDanhTR1afrb79YqpMkgB_pkoXyl27LJFHOCvPom943NU"
+      },
+      {
+        "title": "Deep Work: The Complete Guide (Including a Step-by-Step Checklist)",
+        "url": "https://doist.com/blog/deep-work/"
+      },
+      {
+        "title": "What I Learned from Doing 60+ Technical Interviews in 30 Days",
+        "url": "https://meekg33k.dev/what-i-learned-from-doing-60-technical-interviews-in-30-days-ckda9sn7s00iftss13b0wd0ky?guid=none&deviceId=c3d25e62-877d-4077-9565-d352ca07b7c7"
+      },
+      {
+        "title": "14 Lessons I Learned From Doing 60+ Technical Interviews in 30 Days | by Uduak Obong-Eren | Sep, 2020 | Medium",
+        "url": "https://medium.com/@meekg33k/14-lessons-i-learned-from-doing-60-technical-interviews-in-30-days-7732e4f7608d"
+      },
+      {
+        "title": "Salary Negotiation: Make More Money, Be More Valued | Kalzumeus Software",
+        "url": "https://www.kalzumeus.com/2012/01/23/salary-negotiation/"
+      },
+      {
+        "title": "Learn In Public | swyx.io",
+        "url": "https://www.swyx.io/learn-in-public/"
+      }
+    ]
+  },
+  {
+    "title": "node",
+    "children": [
+      {
+        "title": "(248) Installing MongoDB with Homebrew on macOS - YouTube",
+        "url": "https://www.youtube.com/watch?v=cu9-GphZkKI"
+      },
+      {
+        "title": "NPM & left-pad: Have We Forgotten How To Program? - David Haney - Blogging my experiences as a developer and engineering manager.",
+        "url": "https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/"
+      }
+    ]
+  },
+  {
+    "title": "security",
+    "children": [
+      {
+        "title": "Software Security Field Guide for the Bewildered – zwischenzugs",
+        "url": "https://zwischenzugs.com/2019/09/22/software-security-field-guide-for-the-bewildered/?fbclid=IwAR2OFsG31m1SDXqH3PM7m8p4DhkUkm1pVXXcLZQGd64pfpQgvth9KXUCqxc"
+      },
+      {
+        "title": "Firefox DNS-over-HTTPS | Firefox Help",
+        "url": "https://support.mozilla.org/en-US/kb/firefox-dns-over-https"
+      },
+      {
+        "title": "tycrek/degoogle: Repo for the r/privacy \"degoogle\" megathread",
+        "url": "https://github.com/tycrek/degoogle"
+      },
+      {
+        "title": "That (not so) awesome time the police raided my home",
+        "url": "https://blog.haschek.at/2015-that-not-so-awesome-time-the-police"
+      },
+      {
+        "title": "10 security tips for frontend developers - Level Up Coding",
+        "url": "https://levelup.gitconnected.com/10-security-tips-for-frontend-developers-19e3dd9fb069"
+      },
+      {
+        "title": "Security by Obscurity is Underrated – Utku Sen - Blog – computer security, programming",
+        "url": "https://utkusen.com/blog/security-by-obscurity-is-underrated.html"
+      },
+      { "title": "the mango zone", "url": "https://mango.pdf.zone/" },
+      {
+        "title": "Operation Luigi: How I hacked my friend without her noticing",
+        "url": "https://mango.pdf.zone/operation-luigi-how-i-hacked-my-friend-without-her-noticing"
+      }
+    ]
+  },
+  {
+    "title": "Personal growth",
+    "children": [
+      {
+        "title": "How to stop procrastinating by using the Fogg Behavior Model",
+        "url": "https://www.deprocrastination.co/blog/how-to-stop-procrastinating-by-using-the-fogg-behavior-model"
+      },
+      {
+        "title": "Naval na Twitterze: „In an age of mental gluttony, meditation is fasting for the mind. Before paying a therapist to listen to you, listen to yourself. Before clearing your inbox, clear your mind.” / Twitter",
+        "url": "https://mobile.twitter.com/naval/status/1261481752448524289"
+      }
+    ]
+  },
+  {
+    "title": "various",
+    "children": [
+      {
+        "title": "OpenAI's GPT-3 may be the biggest thing since bitcoin",
+        "url": "https://maraoz.com/2020/07/18/openai-gpt3/"
+      },
+      {
+        "title": "elyase/awesome-gpt3",
+        "url": "https://github.com/elyase/awesome-gpt3"
+      },
+      {
+        "title": "9 Must Watch Movies for Programmers in 2020 🎬 - DEV",
+        "url": "https://dev.to/ombharatiya/9-must-watch-movies-for-programmers-4kgp"
+      }
+    ]
+  }
+]

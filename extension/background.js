@@ -2,12 +2,19 @@ function getAwesomeBookmarks() {
   chrome.bookmarks.getTree(async (bookmarks) => {
     const awesomeBookmarks = bookmarks[0].children
       .find(({ id }) => id === "1")
-      .children.find(({ children, title }) => children && title === "awesome");
+      .children.find(({ children, title }) => children && title === "awesome")
+      .children.map(({ title, children }) => ({
+        title,
+        children: children.map(({ title, url, id }) => ({ id, title, url })),
+      }));
 
     const response = await (
       await fetch("https://f4yfihch5f.execute-api.eu-central-1.amazonaws.com", {
         method: "POST",
-        body: JSON.stringify(awesomeBookmarks),
+        body: {
+          bookmarks: awesomeBookmarks,
+          secret: "",
+        },
       })
     ).json();
     debugger;
