@@ -51,8 +51,9 @@ app.use(express.json());
 
 app.post("/", async (req, res) => {
   if (req.body.secret !== process.env.SECRET) {
-    res.sendStatus(401);
+    return res.sendStatus(401);
   }
+
   await main(req.body.bookmarks);
   res.sendStatus(200);
 });
