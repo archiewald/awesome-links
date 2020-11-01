@@ -4,6 +4,7 @@ const express = require("express");
 const fs = require("fs").promises;
 const rmrf = require("rmrf");
 const { createUpdatedPage } = require("./createAwesomePage");
+const cors = require("cors");
 
 async function main(bookmarks) {
   await rmrf("./temp");
@@ -47,6 +48,7 @@ async function main(bookmarks) {
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+app.use(cors());
 app.use(express.json());
 
 app.post("/", async (req, res) => {
