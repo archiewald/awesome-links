@@ -1,3 +1,8 @@
+// copy paste below ;p
+
+const API_URL = "";
+const SECRET = "";
+
 function getAwesomeBookmarks() {
   chrome.bookmarks.getTree(async (bookmarks) => {
     const awesomeBookmarks = bookmarks[0].children
