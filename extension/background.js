@@ -13,16 +13,14 @@ function getAwesomeBookmarks() {
         children: children.map(({ title, url, id }) => ({ id, title, url })),
       }));
 
-    const response = await (
-      await fetch("https://f4yfihch5f.execute-api.eu-central-1.amazonaws.com", {
-        method: "POST",
-        body: {
-          bookmarks: awesomeBookmarks,
-          secret: "",
-        },
-      })
-    ).json();
-    debugger;
+    await fetch(API_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        bookmarks: awesomeBookmarks,
+        secret: SECRET,
+      }),
+    });
   });
 }
 
