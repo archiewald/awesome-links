@@ -5,7 +5,7 @@ const fs = require("fs").promises;
 const rmrf = require("rmrf");
 const { createUpdatedPage } = require("./createAwesomePage");
 
-async function main(stuff) {
+async function main(bookmarks) {
   await rmrf("./temp");
   console.log("Cloning repo to temp folder");
 
@@ -29,7 +29,7 @@ async function main(stuff) {
   const content = await fs.readFile("./temp/awesome-links.md", "utf8");
 
   console.log("Updating awesome links file");
-  const newContent = createUpdatedPage(content);
+  const newContent = createUpdatedPage(content, bookmarks);
   await fs.writeFile("./temp/awesome-links.md", newContent);
 
   console.log("Commiting and pushing 🚀");
