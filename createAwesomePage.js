@@ -16,7 +16,7 @@ function createUpdatedPage(page, bookmarks) {
       .map(({ title, header, url }) =>
         header
           ? `\n## ${title}\n\n`
-          : `- [${title}](${url}){:target="_blank"}\n`
+          : `- <a href="${url}" target="_blank">${title}</a>\n`
       )
       .join("")
   );
