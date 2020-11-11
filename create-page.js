@@ -1,6 +1,6 @@
 const GUARD = "<!-- awesome-links-feed -->";
 
-function createUpdatedPage(page, bookmarks) {
+function createPage(page, bookmarks) {
   const header = page.split(GUARD)[0] + `\n${GUARD}`;
 
   return (
@@ -22,4 +22,4 @@ function createUpdatedPage(page, bookmarks) {
   );
 }
 
-exports.createUpdatedPage = createUpdatedPage;
+exports.createPage = createPage;

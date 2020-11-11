@@ -3,8 +3,9 @@ const exec = util.promisify(require("child_process").exec);
 const express = require("express");
 const fs = require("fs").promises;
 const rmrf = require("rmrf");
-const { createUpdatedPage } = require("./createAwesomePage");
 const cors = require("cors");
+
+const { createPage } = require("./create-page");
 
 async function main(bookmarks) {
   await rmrf("./temp");
@@ -14,10 +15,10 @@ async function main(bookmarks) {
     await exec(
       `git clone "https://${process.env.GIT_USERNAME}:${process.env.GIT_PASSWORD}@github.com/archiewald/archiewald.github.io" "./temp"`
     );
-    await exec('git config --global user.email "awesome-links@example.com"', {
+    await exec('git config user.email "awesome-links@example.com"', {
       cwd: "./temp",
     });
-    await exec('git config --global user.name "Awesome Links"', {
+    await exec('git config user.name "Awesome Links"', {
       cwd: "./temp",
     });
   } else {
@@ -30,7 +31,7 @@ async function main(bookmarks) {
   const content = await fs.readFile("./temp/awesome-links.md", "utf8");
 
   console.log("Updating awesome links file");
-  const newContent = createUpdatedPage(content, bookmarks);
+  const newContent = createPage(content, bookmarks);
   await fs.writeFile("./temp/awesome-links.md", newContent);
 
   console.log("Commiting and pushing 🚀");

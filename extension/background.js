@@ -1,8 +1,3 @@
-// copy paste below ;p
-
-const API_URL = "";
-const SECRET = "";
-
 function getAwesomeBookmarks() {
   chrome.bookmarks.getTree(async (bookmarks) => {
     const awesomeBookmarks = bookmarks[0].children
@@ -13,12 +8,12 @@ function getAwesomeBookmarks() {
         children: children.map(({ title, url, id }) => ({ id, title, url })),
       }));
 
-    await fetch(API_URL, {
+    await fetch(process.env.API_URL, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         bookmarks: awesomeBookmarks,
-        secret: SECRET,
+        secret: process.env.SECRET,
       }),
     });
   });

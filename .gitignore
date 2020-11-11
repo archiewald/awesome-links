@@ -1,4 +1,6 @@
 node_modules
 temp
 .env
-awesomeTest.md
+test-page.md
+
+extension/build

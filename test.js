@@ -1,9 +1,12 @@
-const { createUpdatedPage } = require("./createAwesomePage");
-const bookmarks = require("./awesomeBookmarks.json");
 const fs = require("fs").promises;
 
-const awesomePage = createUpdatedPage(
-  `HELLO
+const { createPage } = require("./create-page");
+const bookmarks = require("./test-bookmarks.json");
+
+const awesomePage = createPage(
+  `## HELLO
+
+WELCOME TO MY BOOKMARKS
 
 <!-- awesome-links-feed -->
 
@@ -11,4 +14,4 @@ const awesomePage = createUpdatedPage(
 `,
   bookmarks
 );
-fs.writeFile("./awesomeTest.md", awesomePage);
+fs.writeFile("./test-page.md", awesomePage);
