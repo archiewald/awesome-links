@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "node test.js",
-    "extension:build": "cd extension && webpack"
+    "extension:build": "cd extension && webpack && cp manifest.json build/manifest.json"
   },
   "author": "",
   "license": "ISC",

@@ -15,10 +15,10 @@ async function main(bookmarks) {
     await exec(
       `git clone "https://${process.env.GIT_USERNAME}:${process.env.GIT_PASSWORD}@github.com/archiewald/archiewald.github.io" "./temp"`
     );
-    await exec('git config user.email "awesome-links@example.com"', {
+    await exec('git config --global user.email "awesome-links@example.com"', {
       cwd: "./temp",
     });
-    await exec('git config user.name "Awesome Links"', {
+    await exec('git config --global user.name "Awesome Links"', {
       cwd: "./temp",
     });
   } else {
