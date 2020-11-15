@@ -44,6 +44,7 @@ async function main(bookmarks) {
   await exec("git push", {
     cwd: "./temp",
   });
+  console.log("Push success!");
 }
 
 const app = express();
