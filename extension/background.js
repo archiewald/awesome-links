@@ -1,4 +1,4 @@
-function getAwesomeBookmarks() {
+function sendAwesomeBookmarks() {
   chrome.bookmarks.getTree(async (bookmarks) => {
     const awesomeBookmarks = bookmarks[0].children
       .find(({ id }) => id === "1")
@@ -19,9 +19,9 @@ function getAwesomeBookmarks() {
   });
 }
 
-chrome.runtime.onInstalled.addListener(getAwesomeBookmarks);
-chrome.bookmarks.onCreated.addListener(getAwesomeBookmarks);
-chrome.bookmarks.onRemoved.addListener(getAwesomeBookmarks);
-chrome.bookmarks.onChanged.addListener(getAwesomeBookmarks);
-chrome.bookmarks.onMoved.addListener(getAwesomeBookmarks);
-chrome.bookmarks.onChildrenReordered.addListener(getAwesomeBookmarks);
+chrome.runtime.onInstalled.addListener(sendAwesomeBookmarks);
+chrome.bookmarks.onCreated.addListener(sendAwesomeBookmarks);
+chrome.bookmarks.onRemoved.addListener(sendAwesomeBookmarks);
+chrome.bookmarks.onChanged.addListener(sendAwesomeBookmarks);
+chrome.bookmarks.onMoved.addListener(sendAwesomeBookmarks);
+chrome.bookmarks.onChildrenReordered.addListener(sendAwesomeBookmarks);
