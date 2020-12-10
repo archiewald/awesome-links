@@ -7,6 +7,8 @@ const cors = require("cors");
 
 const { createPage } = require("./create-page");
 
+const AWESOME_PAGE_PATH = "./temp/awesome.md";
+
 async function main(bookmarks) {
   await rmrf("./temp");
   console.log("Cloning repo to temp folder");
@@ -28,14 +30,14 @@ async function main(bookmarks) {
   }
 
   console.log("Reading awesome links file");
-  const content = await fs.readFile("./temp/awesome.md", "utf8");
+  const content = await fs.readFile(AWESOME_PAGE_PATH, "utf8");
 
   console.log("Updating awesome links file");
   const newContent = createPage(content, bookmarks);
-  await fs.writeFile("./temp/awesome-links.md", newContent);
+  await fs.writeFile(AWESOME_PAGE_PATH, newContent);
 
   console.log("Commiting and pushing 🚀");
-  await exec("git add ./awesome-links.md", {
+  await exec("git add ./awesome.md", {
     cwd: "./temp",
   });
   await exec('git commit -m "update awesome links"', {
