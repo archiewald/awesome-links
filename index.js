@@ -28,7 +28,7 @@ async function main(bookmarks) {
   }
 
   console.log("Reading awesome links file");
-  const content = await fs.readFile("./temp/awesome-links.md", "utf8");
+  const content = await fs.readFile("./temp/awesome.md", "utf8");
 
   console.log("Updating awesome links file");
   const newContent = createPage(content, bookmarks);
